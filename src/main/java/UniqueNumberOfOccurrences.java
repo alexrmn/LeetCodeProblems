@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Solution {
+public class UniqueNumberOfOccurrences {
     public static void main(String[] args) {
         int[] array = {1,2,2,1,1,3};
         System.out.println(uniqueOccurrences(array));
