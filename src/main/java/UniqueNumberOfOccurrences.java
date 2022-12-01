@@ -11,26 +11,14 @@ public class UniqueNumberOfOccurrences {
 
         Map<Integer, Integer> occurrences = new HashMap<>();
 
-        for (int n : arr) {
-            if (!occurrences.containsKey(n)) {
-                occurrences.put(n, 1);
+        for (int number : arr) {
+            if (!occurrences.containsKey(number)) {
+                occurrences.put(number, 1);
             } else {
-                occurrences.put(n, occurrences.get(n) + 1);
+                occurrences.put(number, occurrences.get(number) + 1);
             }
         }
 
-//        for (Integer i : occurrences.values()) {
-//            int count = 0;
-//            for (Integer j : occurrences.values()) {
-//                if (i.equals(j)) {
-//                    count++;
-//                }
-//            }
-//            if (count > 1) {
-//                result = false;
-//                break;
-//            }
-//        }
 
         Set <Integer> uniqueOccurrences = new HashSet<>(occurrences.values());
 
