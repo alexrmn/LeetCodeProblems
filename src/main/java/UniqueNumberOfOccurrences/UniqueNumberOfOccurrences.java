@@ -1,3 +1,5 @@
+package UniqueNumberOfOccurrences;
+
 import java.util.*;
 
 public class UniqueNumberOfOccurrences {
