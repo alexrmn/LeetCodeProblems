@@ -10,7 +10,6 @@ public class Solution {
 
     public static  int reverse(int input) {
         long result = 0;
-        int savedInput = input;
         while (input != 0) {
             result = result * 10 + input % 10;
             input = input / 10;
